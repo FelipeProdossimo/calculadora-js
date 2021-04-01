@@ -1,0 +1,11 @@
+let primeiroNumero = parseFloat(prompt("Informe o primeiro número"));
+
+let operacao = parseInt(prompt("Digite 1 para soma, 2 para subtração, 3 para multiplicação e 4 para divisão"));
+
+// concatenar usar o  + entre a variavel + ---------------- concatenar conteúdo
+
+let segundoNumero = parseFloat(prompt("Informe o segundo número"));
+
+let resultado = primeiroNumero + segundoNumero;
+
+document.write("<h2>" + primeiroNumero + " + " + segundoNumero + " = " + resultado + "</h2>");
